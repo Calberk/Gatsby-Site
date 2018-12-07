@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "Gatsby Site",
+  "description": "Starter Site",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Edmund Park",
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
@@ -25,6 +25,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "netlify-lambda": "^1.1.0",
     "prettier": "^1.14.2"
   },
   "repository": {

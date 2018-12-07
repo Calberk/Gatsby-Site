@@ -41,6 +41,7 @@ class Contact extends Component {
     }).catch(error=>{
         console.log(error);
     });
+}
 
     // On Successful Submit
 

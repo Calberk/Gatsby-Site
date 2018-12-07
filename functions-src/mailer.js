@@ -10,7 +10,7 @@ exports.handler = function(event, context, callback){
             type: "OAuth2",
             user: "park.edmund@gmail.com",
             clientId: clientId,
-            clientSecret: "process.env.CLIENT_SECRET",
+            clientSecret: process.env.CLIENT_SECRET,
             refreshToken: refreshToken,
         }
     })
